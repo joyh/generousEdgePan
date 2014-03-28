@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB28E0218E50DC700E3BD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB28E0118E50DC700E3BD4F /* Foundation.framework */; };
+		2BB28E0418E50DC700E3BD4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB28E0318E50DC700E3BD4F /* CoreGraphics.framework */; };
+		2BB28E0618E50DC700E3BD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB28E0518E50DC700E3BD4F /* UIKit.framework */; };
+		2BB28E0C18E50DC700E3BD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BB28E0A18E50DC700E3BD4F /* InfoPlist.strings */; };
+		2BB28E0E18E50DC700E3BD4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB28E0D18E50DC700E3BD4F /* main.m */; };
+		2BB28E1218E50DC700E3BD4F /* ZINAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB28E1118E50DC700E3BD4F /* ZINAppDelegate.m */; };
+		2BB28E1418E50DC700E3BD4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB28E1318E50DC700E3BD4F /* Images.xcassets */; };
+		2BB28E1B18E50DC700E3BD4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB28E1A18E50DC700E3BD4F /* XCTest.framework */; };
+		2BB28E1C18E50DC700E3BD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB28E0118E50DC700E3BD4F /* Foundation.framework */; };
+		2BB28E1D18E50DC700E3BD4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB28E0518E50DC700E3BD4F /* UIKit.framework */; };
+		2BB28E2518E50DC700E3BD4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BB28E2318E50DC700E3BD4F /* InfoPlist.strings */; };
+		2BB28E2718E50DC700E3BD4F /* generousEdgePanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB28E2618E50DC700E3BD4F /* generousEdgePanTests.m */; };
+		2BB28E3218E50FCA00E3BD4F /* ZINRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB28E3118E50FCA00E3BD4F /* ZINRootViewController.m */; };
+		2BB28E3518E50FE600E3BD4F /* ZINTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB28E3418E50FE600E3BD4F /* ZINTableViewController.m */; };
+		2BB28E3B18E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB28E3A18E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB28E1E18E50DC700E3BD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB28DF618E50DC700E3BD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB28DFD18E50DC700E3BD4F;
+			remoteInfo = generousEdgePan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB28DFE18E50DC700E3BD4F /* generousEdgePan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = generousEdgePan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB28E0118E50DC700E3BD4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BB28E0318E50DC700E3BD4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BB28E0518E50DC700E3BD4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BB28E0918E50DC700E3BD4F /* generousEdgePan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "generousEdgePan-Info.plist"; sourceTree = "<group>"; };
+		2BB28E0B18E50DC700E3BD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BB28E0D18E50DC700E3BD4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BB28E0F18E50DC700E3BD4F /* generousEdgePan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "generousEdgePan-Prefix.pch"; sourceTree = "<group>"; };
+		2BB28E1018E50DC700E3BD4F /* ZINAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZINAppDelegate.h; sourceTree = "<group>"; };
+		2BB28E1118E50DC700E3BD4F /* ZINAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZINAppDelegate.m; sourceTree = "<group>"; };
+		2BB28E1318E50DC700E3BD4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BB28E1918E50DC700E3BD4F /* generousEdgePanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generousEdgePanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB28E1A18E50DC700E3BD4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BB28E2218E50DC700E3BD4F /* generousEdgePanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "generousEdgePanTests-Info.plist"; sourceTree = "<group>"; };
+		2BB28E2418E50DC700E3BD4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BB28E2618E50DC700E3BD4F /* generousEdgePanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = generousEdgePanTests.m; sourceTree = "<group>"; };
+		2BB28E3018E50FCA00E3BD4F /* ZINRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZINRootViewController.h; sourceTree = "<group>"; };
+		2BB28E3118E50FCA00E3BD4F /* ZINRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZINRootViewController.m; sourceTree = "<group>"; };
+		2BB28E3318E50FE600E3BD4F /* ZINTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZINTableViewController.h; sourceTree = "<group>"; };
+		2BB28E3418E50FE600E3BD4F /* ZINTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZINTableViewController.m; sourceTree = "<group>"; };
+		2BB28E3918E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZINScreenEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		2BB28E3A18E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZINScreenEdgePanGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB28DFB18E50DC700E3BD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB28E0418E50DC700E3BD4F /* CoreGraphics.framework in Frameworks */,
+				2BB28E0618E50DC700E3BD4F /* UIKit.framework in Frameworks */,
+				2BB28E0218E50DC700E3BD4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB28E1618E50DC700E3BD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB28E1B18E50DC700E3BD4F /* XCTest.framework in Frameworks */,
+				2BB28E1D18E50DC700E3BD4F /* UIKit.framework in Frameworks */,
+				2BB28E1C18E50DC700E3BD4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB28DF518E50DC700E3BD4F = {
+			isa = PBXGroup;
+			children = (
+				2BB28E0718E50DC700E3BD4F /* generousEdgePan */,
+				2BB28E2018E50DC700E3BD4F /* generousEdgePanTests */,
+				2BB28E0018E50DC700E3BD4F /* Frameworks */,
+				2BB28DFF18E50DC700E3BD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB28DFF18E50DC700E3BD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB28DFE18E50DC700E3BD4F /* generousEdgePan.app */,
+				2BB28E1918E50DC700E3BD4F /* generousEdgePanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB28E0018E50DC700E3BD4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB28E0118E50DC700E3BD4F /* Foundation.framework */,
+				2BB28E0318E50DC700E3BD4F /* CoreGraphics.framework */,
+				2BB28E0518E50DC700E3BD4F /* UIKit.framework */,
+				2BB28E1A18E50DC700E3BD4F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BB28E0718E50DC700E3BD4F /* generousEdgePan */ = {
+			isa = PBXGroup;
+			children = (
+				2BB28E1018E50DC700E3BD4F /* ZINAppDelegate.h */,
+				2BB28E1118E50DC700E3BD4F /* ZINAppDelegate.m */,
+				2BB28E3918E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.h */,
+				2BB28E3A18E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.m */,
+				2BB28E3018E50FCA00E3BD4F /* ZINRootViewController.h */,
+				2BB28E3118E50FCA00E3BD4F /* ZINRootViewController.m */,
+				2BB28E3318E50FE600E3BD4F /* ZINTableViewController.h */,
+				2BB28E3418E50FE600E3BD4F /* ZINTableViewController.m */,
+				2BB28E1318E50DC700E3BD4F /* Images.xcassets */,
+				2BB28E0818E50DC700E3BD4F /* Supporting Files */,
+			);
+			path = generousEdgePan;
+			sourceTree = "<group>";
+		};
+		2BB28E0818E50DC700E3BD4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB28E0918E50DC700E3BD4F /* generousEdgePan-Info.plist */,
+				2BB28E0A18E50DC700E3BD4F /* InfoPlist.strings */,
+				2BB28E0D18E50DC700E3BD4F /* main.m */,
+				2BB28E0F18E50DC700E3BD4F /* generousEdgePan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BB28E2018E50DC700E3BD4F /* generousEdgePanTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB28E2618E50DC700E3BD4F /* generousEdgePanTests.m */,
+				2BB28E2118E50DC700E3BD4F /* Supporting Files */,
+			);
+			path = generousEdgePanTests;
+			sourceTree = "<group>";
+		};
+		2BB28E2118E50DC700E3BD4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB28E2218E50DC700E3BD4F /* generousEdgePanTests-Info.plist */,
+				2BB28E2318E50DC700E3BD4F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB28DFD18E50DC700E3BD4F /* generousEdgePan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB28E2A18E50DC700E3BD4F /* Build configuration list for PBXNativeTarget "generousEdgePan" */;
+			buildPhases = (
+				2BB28DFA18E50DC700E3BD4F /* Sources */,
+				2BB28DFB18E50DC700E3BD4F /* Frameworks */,
+				2BB28DFC18E50DC700E3BD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = generousEdgePan;
+			productName = generousEdgePan;
+			productReference = 2BB28DFE18E50DC700E3BD4F /* generousEdgePan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB28E1818E50DC700E3BD4F /* generousEdgePanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB28E2D18E50DC700E3BD4F /* Build configuration list for PBXNativeTarget "generousEdgePanTests" */;
+			buildPhases = (
+				2BB28E1518E50DC700E3BD4F /* Sources */,
+				2BB28E1618E50DC700E3BD4F /* Frameworks */,
+				2BB28E1718E50DC700E3BD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB28E1F18E50DC700E3BD4F /* PBXTargetDependency */,
+			);
+			name = generousEdgePanTests;
+			productName = generousEdgePanTests;
+			productReference = 2BB28E1918E50DC700E3BD4F /* generousEdgePanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB28DF618E50DC700E3BD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZIN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Zininworks;
+				TargetAttributes = {
+					2BB28E1818E50DC700E3BD4F = {
+						TestTargetID = 2BB28DFD18E50DC700E3BD4F;
+					};
+				};
+			};
+			buildConfigurationList = 2BB28DF918E50DC700E3BD4F /* Build configuration list for PBXProject "generousEdgePan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BB28DF518E50DC700E3BD4F;
+			productRefGroup = 2BB28DFF18E50DC700E3BD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB28DFD18E50DC700E3BD4F /* generousEdgePan */,
+				2BB28E1818E50DC700E3BD4F /* generousEdgePanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB28DFC18E50DC700E3BD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB28E0C18E50DC700E3BD4F /* InfoPlist.strings in Resources */,
+				2BB28E1418E50DC700E3BD4F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB28E1718E50DC700E3BD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB28E2518E50DC700E3BD4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB28DFA18E50DC700E3BD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB28E3B18E5128500E3BD4F /* ZINScreenEdgePanGestureRecognizer.m in Sources */,
+				2BB28E3218E50FCA00E3BD4F /* ZINRootViewController.m in Sources */,
+				2BB28E1218E50DC700E3BD4F /* ZINAppDelegate.m in Sources */,
+				2BB28E0E18E50DC700E3BD4F /* main.m in Sources */,
+				2BB28E3518E50FE600E3BD4F /* ZINTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB28E1518E50DC700E3BD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB28E2718E50DC700E3BD4F /* generousEdgePanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB28E1F18E50DC700E3BD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB28DFD18E50DC700E3BD4F /* generousEdgePan */;
+			targetProxy = 2BB28E1E18E50DC700E3BD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BB28E0A18E50DC700E3BD4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB28E0B18E50DC700E3BD4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BB28E2318E50DC700E3BD4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB28E2418E50DC700E3BD4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB28E2818E50DC700E3BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BB28E2918E50DC700E3BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB28E2B18E50DC700E3BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "generousEdgePan/generousEdgePan-Prefix.pch";
+				INFOPLIST_FILE = "generousEdgePan/generousEdgePan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BB28E2C18E50DC700E3BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "generousEdgePan/generousEdgePan-Prefix.pch";
+				INFOPLIST_FILE = "generousEdgePan/generousEdgePan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BB28E2E18E50DC700E3BD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/generousEdgePan.app/generousEdgePan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "generousEdgePan/generousEdgePan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "generousEdgePanTests/generousEdgePanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2BB28E2F18E50DC700E3BD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/generousEdgePan.app/generousEdgePan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "generousEdgePan/generousEdgePan-Prefix.pch";
+				INFOPLIST_FILE = "generousEdgePanTests/generousEdgePanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB28DF918E50DC700E3BD4F /* Build configuration list for PBXProject "generousEdgePan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB28E2818E50DC700E3BD4F /* Debug */,
+				2BB28E2918E50DC700E3BD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB28E2A18E50DC700E3BD4F /* Build configuration list for PBXNativeTarget "generousEdgePan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB28E2B18E50DC700E3BD4F /* Debug */,
+				2BB28E2C18E50DC700E3BD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2BB28E2D18E50DC700E3BD4F /* Build configuration list for PBXNativeTarget "generousEdgePanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB28E2E18E50DC700E3BD4F /* Debug */,
+				2BB28E2F18E50DC700E3BD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB28DF618E50DC700E3BD4F /* Project object */;
+}
